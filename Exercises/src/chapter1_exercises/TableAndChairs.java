@@ -17,6 +17,19 @@ public class TableAndChairs {
 		System.out.println("x    x x        x x    x");
 		System.out.println("x    x x        x x    x");
 		System.out.println("x    x x        x x    x");
+		
+		
 	}
+	public static void displayTruck() {
 
+		System.out.println("   _________________________");
+		System.out.println("  /                         |");
+		System.out.println("  |                         |");
+		System.out.println(" _|                         |");
+		System.out.println("|                           |");
+		System.out.println("|                           |");
+		Sydtem.out.println("|____0_______________0______|");
+		
+	}
+	
 }

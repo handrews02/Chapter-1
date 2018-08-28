@@ -28,7 +28,7 @@ public class TableAndChairs {
 		System.out.println(" _|                         |");
 		System.out.println("|                           |");
 		System.out.println("|                           |");
-		Sydtem.out.println("|____0_______________0______|");
+		System.out.println("|____0_______________0______|");
 		
 	}
 	

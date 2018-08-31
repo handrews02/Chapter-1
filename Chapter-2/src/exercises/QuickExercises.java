@@ -2,6 +2,8 @@ package exercises;
 
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class QuickExercises {
 
 	public static void main(String[] args) {
@@ -20,6 +22,7 @@ public class QuickExercises {
 			System.out.println("Your total is " + (num1 + num2)); 
 
 
+		
 
 		
 	}

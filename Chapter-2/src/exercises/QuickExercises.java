@@ -14,7 +14,10 @@ public class QuickExercises {
 			System.out.println("Please enter your name >> ");
 			name= inputDevice.next();
 			System.out.println("Please enter a number >>");
-			num1= 
+			num1= inputDevice.nextInt();
+			System.out.println("Please enter another number >>");
+			num2= inputDevice.nextInt();
+			System.out.println("Your total is " + (num1 + num2)); 
 
 
 

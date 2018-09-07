@@ -14,15 +14,15 @@ public class NauticalMiles {
 		String nauticalMilesEntered; 
 		double nauticalMiles;
 		
-		nauticalMilesEntered = JOptionPane.showInputDialog(null, "How many miles?",
+		nauticalMilesEntered = JOptionPane.showInputDialog(null, "How many nautical miles?",
 				JOptionPane.QUESTION_MESSAGE);
 		nauticalMiles= Integer.parseInt(nauticalMilesEntered);
 		
 		nauticalMilesToMiles = nauticalMiles * miles;
 		nauticalMilesToKilometers = nauticalMiles * kilometers;
 		
-		System.out.println("The conversion of Nautical Miles to Miles is " + nauticalMilesToMiles);
-		System.out.println("The conversion of Nautical Miles to Kilometers is " + nauticalMilesToKilometers);
+		JOptionPane.showMessageDialog(null, "The conversion of Nautical Miles to Miles is " + nauticalMilesToMiles);
+		JOptionPane.showMessageDialog(null, "The conversion of Nautical Miles to Kilometers is " + nauticalMilesToKilometers);
 		
 	}
 

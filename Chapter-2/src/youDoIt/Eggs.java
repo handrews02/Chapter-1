@@ -15,6 +15,8 @@ public class Eggs {
 		int dozenEggs; 
 		int eggsLeftover;
 		double cost; 
+		double dozenEggCost; 
+		double singleEggsCost; 
 		
 		eggsOrdered = JOptionPane.showInputDialog(null, "How many eggs?",
 				JOptionPane.QUESTION_MESSAGE);
@@ -22,8 +24,12 @@ public class Eggs {
 		
 		dozenEggs= eggsWanted / DOZEN_EGGS; 
 		eggsLeftover = eggsWanted % DOZEN_EGGS;
+		dozenEggCost= dozenEggs * 3.25;
+		singleEggsCost= eggsLeftover * 0.45;
+		cost= dozenEggCost + singleEggCost; 
 	
-		System.out.println("You ordered "+ eggsWanted + " eggs, which is " + dozenEggs + " dozen "  + "and " + eggsLeftover + " eggs leftover");
+		System.out.println("You ordered "+ eggsWanted + " eggs. That is " + dozenEggs + " dozen at $3.25 per dozen "  + "and " + eggsLeftover + 
+				" loose eggs at $0.45 each for a total of $" + cost);
 		
 		
 		

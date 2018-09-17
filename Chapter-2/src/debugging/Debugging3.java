@@ -4,8 +4,12 @@ public class Debugging3 {
 	
 	public static void main(String[] argz)
 	   {
-	      System.out.println("Over the river");
-	      System.out.println("and through the woods");
-	      System.out.println("to Grandmother's house we go");
+		 int a = 99, b = 8, result;
+	     double c = 777777777;
+	      result = a % b;
+	      System.out.println("Divide " + a + " by " + b);
+	      System.out.println("remainder is " + result);
+	      System.out.println("c is a very large number: ");
+	      System.out.println(c);
 	   }
 }
